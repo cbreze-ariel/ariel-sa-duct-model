@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import json
 import scipy # must be at least scipy >=  version 1.4.X
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
@@ -17,6 +18,8 @@ data_path = sys.path[0].replace('/scripts', '/data')
 filename = 'parameters.csv'
 df_parameters = pd.read_csv(data_path + '/'+ filename, index_col = 'Parameters')
 parameter_dict = df_parameters.to_dict('index')
+
+json_inputs = df_parameters.to_json(r'inputs.json', orient='index')
 
 def calculatePotentials(y, parameter_dict):
 	# Voltage potential drive ion gradients across the cell

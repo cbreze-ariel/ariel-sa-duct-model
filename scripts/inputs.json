@@ -1,0 +1,206 @@
+{
+  "g_bi": {
+    "Value": 0.2,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "bicarbonate conductance",
+    "Notes": null
+  },
+  "g_cl": {
+    "Value": 1.0,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "chloride conductance",
+    "Notes": null
+  },
+  "zeta": {
+    "Value": 1.0,
+    "Units": "unitless",
+    "Descriptor": "uniform scaling of all conductances and permeabilities",
+    "Notes": "Removed this in final model"
+  },
+  "kbi": {
+    "Value": 1.0,
+    "Units": "unitless",
+    "Descriptor": "bicarbonate antiporter constant",
+    "Notes": null
+  },
+  "kcl": {
+    "Value": 10.0,
+    "Units": "unitless",
+    "Descriptor": "chloride antiporter constant",
+    "Notes": null
+  },
+  "nb": {
+    "Value": 140.0,
+    "Units": "mM",
+    "Descriptor": "sodium basolateral concentration",
+    "Notes": null
+  },
+  "bb": {
+    "Value": 22.0,
+    "Units": "mM",
+    "Descriptor": "bicarbonate basolateral concentration",
+    "Notes": null
+  },
+  "cb": {
+    "Value": 130.0,
+    "Units": "mM",
+    "Descriptor": "chloride basolateral concentration",
+    "Notes": null
+  },
+  "ni": {
+    "Value": 14.0,
+    "Units": "mM",
+    "Descriptor": "sodium intracellular concentration",
+    "Notes": null
+  },
+  "vr": {
+    "Value": 0.1,
+    "Units": "unitless",
+    "Descriptor": "volume ratio (1:10 in original model)",
+    "Notes": null
+  },
+  "buf": {
+    "Value": 0.1,
+    "Units": null,
+    "Descriptor": "buffer",
+    "Notes": null
+  },
+  "bi0": {
+    "Value": 15.0,
+    "Units": "mM",
+    "Descriptor": "initial bicarbonate concentration",
+    "Notes": null
+  },
+  "chi": {
+    "Value": 1.0,
+    "Units": null,
+    "Descriptor": null,
+    "Notes": "No information available, doesn't seem to do anything"
+  },
+  "bi": {
+    "Value": 15.0,
+    "Units": "mM",
+    "Descriptor": "bicarbonate intracellular concentration",
+    "Notes": null
+  },
+  "ci": {
+    "Value": 60.0,
+    "Units": "mM",
+    "Descriptor": "intracellular chloride concentration",
+    "Notes": null
+  },
+  "bl": {
+    "Value": 32.0,
+    "Units": "mM",
+    "Descriptor": "bicarbonate luminal concentration",
+    "Notes": null
+  },
+  "gcftron": {
+    "Value": 1.0,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "cftr open conductance",
+    "Notes": null
+  },
+  "gcftrbase": {
+    "Value": 0.00007,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "cftr closed conductance",
+    "Notes": null
+  },
+  "ek": {
+    "Value": -0.085,
+    "Units": "V",
+    "Descriptor": "potassium electric potential",
+    "Notes": null
+  },
+  "gk": {
+    "Value": 1.0,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "potassium conductance",
+    "Notes": null
+  },
+  "cap": {
+    "Value": 1.0,
+    "Units": null,
+    "Descriptor": "membrane capacitance",
+    "Notes": null
+  },
+  "r": {
+    "Value": 8.31451,
+    "Units": "J K^-1 mol^-1",
+    "Descriptor": "ideal gas constant",
+    "Notes": null
+  },
+  "f": {
+    "Value": 96485.0,
+    "Units": "C mol^-1",
+    "Descriptor": "faraday constant",
+    "Notes": null
+  },
+  "temp": {
+    "Value": 310.0,
+    "Units": "K",
+    "Descriptor": "body temperature in Kelvin",
+    "Notes": null
+  },
+  "ionstr": {
+    "Value": 160.0,
+    "Units": "mM",
+    "Descriptor": "maximum concentration of luminal bicarbonate in the duct",
+    "Notes": null
+  },
+  "gnak": {
+    "Value": 3.125,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "sodium potassium pump conductance",
+    "Notes": null
+  },
+  "np0": {
+    "Value": 25.0,
+    "Units": "mM",
+    "Descriptor": "initial sodium concentration",
+    "Notes": null
+  },
+  "epump": {
+    "Value": -0.2,
+    "Units": "V",
+    "Descriptor": "voltage associated with sodium/potassium ion pump",
+    "Notes": null
+  },
+  "gnaleak": {
+    "Value": 0.4,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "sodium leak conductance",
+    "Notes": null
+  },
+  "jac": {
+    "Value": 0.025,
+    "Units": "mol/s",
+    "Descriptor": "flux associated with resting acinar cell",
+    "Notes": null
+  },
+  "rat": {
+    "Value": 0.25,
+    "Units": "unitless",
+    "Descriptor": "molar ratio of bicarbonate to chloride in the acinar cell source",
+    "Notes": null
+  },
+  "gnbc": {
+    "Value": 2.0,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "sodium bicarbonate channel conductance",
+    "Notes": null
+  },
+  "gapl": {
+    "Value": 0.25,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "luminal antiporter conductance",
+    "Notes": null
+  },
+  "gapbl": {
+    "Value": 0.005,
+    "Units": "V mol^-1 s^-1",
+    "Descriptor": "basolateral antiporter conductance",
+    "Notes": null
+  }
+}
